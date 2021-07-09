@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="a74f4fd7-ba72-43dc-b1cf-497f4ebe3fe4" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1clone" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+<con:testCase discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" id="a74f4fd7-ba72-43dc-b1cf-497f4ebe3fe4" keepSession="false" name="TestCase 1clone" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="a74f4fd7-ba72-43dc-b1cf-497f4ebe3fe4fileName">TestCase-1clone</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
-  <con:testStep type="datasource" name="DataSource" id="502737e0-83b7-4fc7-afd4-4fafde82a0e2">
+  <con:testStep id="502737e0-83b7-4fc7-afd4-4fafde82a0e2" name="DataSource" type="datasource">
     <con:settings/>
     <con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:dataSource type="Data Generator">
@@ -57,7 +57,7 @@
       <con:restartOnRun>true</con:restartOnRun>
     </con:config>
   </con:testStep>
-  <con:testStep type="datasink" name="DataSink" id="f209b161-293c-45e1-a887-4f27bd344663">
+  <con:testStep id="f209b161-293c-45e1-a887-4f27bd344663" name="DataSink" type="datasink">
     <con:settings/>
     <con:config xsi:type="con:DataSinkStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:dataSink type="Excel">
@@ -86,7 +86,7 @@
       </con:properties>
     </con:config>
   </con:testStep>
-  <con:testStep type="datasourceloop" name="DataSource Loop" id="ab9f3f03-de2a-40e1-a96f-0b99629594fb">
+  <con:testStep id="ab9f3f03-de2a-40e1-a96f-0b99629594fb" name="DataSource Loop" type="datasourceloop">
     <con:settings/>
     <con:config>
       <dataSourceStep>DataSource</dataSourceStep>

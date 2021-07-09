@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="6fbc5400-e77c-48e1-bb28-a3d3f54385d9" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 2" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+<con:testCase discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" id="6fbc5400-e77c-48e1-bb28-a3d3f54385d9" keepSession="false" name="TestCase 2" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="6fbc5400-e77c-48e1-bb28-a3d3f54385d9fileName">TestCase-2</con:setting>
   </con:settings>
-  <con:testStep type="datasource" name="DataSource-FormulaExcel" id="75911d49-cd50-40af-bc68-ab250474fb8a">
+  <con:testStep id="75911d49-cd50-40af-bc68-ab250474fb8a" name="DataSource-FormulaExcel" type="datasource">
     <con:settings/>
     <con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:dataSource type="Excel">
