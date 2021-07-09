@@ -23,12 +23,6 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
       <action>run</action>
     </con:config>
   </con:testStep>
-  <con:testStep type="delay" name="Delay" id="d5904b42-45a0-4461-9cc8-9c24ea78ccb9">
-    <con:settings/>
-    <con:config>
-      <delay>10000</delay>
-    </con:config>
-  </con:testStep>
   <con:testStep type="restrequest" name="Login" id="d669030a-5e8c-4cf7-badd-9e8ae282be4b">
     <con:settings/>
     <con:config service="Ecommerce" resourcePath="/login/" methodName="Login" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
